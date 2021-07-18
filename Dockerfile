@@ -1,5 +1,5 @@
 # A Dockerfile that sets up a full Gym install
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 
 RUN apt-get update \
     && apt-get install -y libav-tools \
