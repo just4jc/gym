@@ -1,5 +1,5 @@
 # A Dockerfile that sets up a full Gym install with test dependencies
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20201014
 
 # Install keyboard-configuration separately to avoid travis hanging waiting for keyboard selection
 RUN \
